@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="gurupayment" method="upgrade">
+	<name>nextpay</name>
+	<title>nextpay</title>
+	<author>Nextpay Co</author>
+	<creationDate>May 2019</creationDate>
+	<copyright>Copyright 2019 Nextpay.ir</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+	<authorEmail>info@nextpay.ir</authorEmail>
+	<authorUrl>https://nextpay.ir</authorUrl>
+	<version>0.0.1</version>
+	<description>پلاگین پرداخت زرین پال برای افزونه گورو</description>
+	<config>
+		<fields name="params"  addfieldpath="/plugins/gurupayment/fields">
+			<fieldset name="basic">
+				<field name="api_key" type="text" size="40" label="کلید مجوزدهی" description="کلید مجوزدهی نکست پی را وارد نمایید" default="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"></field>
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename plugin="nextpay">nextpay.php</filename>
+		<filename>inputcheck.php</filename>
+	</files>
+</extension>
