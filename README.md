@@ -1,4 +1,4 @@
-# پلاگین اتصال زرین پال به GuruPro
+#  GuruPro پلاگین اتصال نکست پی به
 
 <p> </p>
 <p style="text-align: center;"><a title="درگاه پرداخت نکست پی" href="https://nextpay.ir" rel="alternate"><img src="https://nextpay.ir/download/logo.png" alt="درگاه پرداخت نکست پی" width="336" height="280" /><br /></a></p>
